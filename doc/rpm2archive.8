@@ -1,0 +1,19 @@
+.\" rpm2archive - Converts Red Hat Package (RPM) to a gzip compressed tar archive
+.TH rpm2archive 8 "26 January 2020"
+.SH NAME
+rpm2archive \- Extract gzip compressed tar archive from RPM Package Manager (RPM) package.
+.SH SYNOPSIS
+\fBrpm2archive\fP [file.rpm ...]
+.SH DESCRIPTION
+\fBrpm2archive\fP converts one or multiple .rpm files specified as arguments
+to a gzip compressed tar archive with the same name as the inputfile with a '.tgz' extension appendend.
+
+.br
+.I "\fBrpm2archive glint-1.0-1.i386.rpmfP"
+
+.SH SEE ALSO
+.IR rpm (8)
+.SH AUTHOR
+.nf
+Benjamin Akhras <b@akhras.at>
+.fi
